@@ -60,4 +60,18 @@
         display: none;
     }
 }
-
+.mobile-menu {
+    position: absolute;
+    top: 100px;
+    background-color: #F5F2F2;
+    width: 100%;
+    list-style-type: none;
+    display: none;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.mobile-menu.open{
+    display: flex;
+}

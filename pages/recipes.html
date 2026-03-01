@@ -5,6 +5,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title></title>
    <link rel="stylesheet" href="../styles/recipes.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="media/small.css"media='screen and (max-width: 480px)'>
           <link rel="stylesheet" href="media/medium.css"media='screen and (min-width: 481px) and (max-width:768px)'>
           <link rel="stylesheet" href="media/large.css"media='screen and (min-width: 769px) and (max-width:1024px)'>
@@ -28,6 +36,12 @@
       <div class="search">
          <input type="text" placeholder="Search recipe">
       </div>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                <ul id="menu" class="mobile-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li> <a href="../pages/recipes.html">Recipes</a></li>
+            <li><a href="../pages/about-us.html">About us</a></li>
+        </ul>
    </header>
    <section class="push">
       <div class="this">
@@ -81,7 +95,7 @@
                <p>
                   Irresistible homemade donuts with soft dough and delicious toppings.
                </p>
-               <button>Ver receita</button>
+               <button>see recipe</button>
             </div>
          </div>
          <div class="line">
@@ -92,7 +106,7 @@
                   Crunchy and flavorful cereal, perfect for breakfast or a quick snack. A delicious and nutritious
                   option to start the day with energy.
                </p>
-               <button>Ver receita</button>
+               <button>see recipe</button>
             </div>
          </div>
          <div class="line">
@@ -102,7 +116,7 @@
                <p>
                   Irresistible homemade cookies with soft dough and generous chunks of chocolate.
                </p>
-               <button>Ver receita</button>
+               <button>see recipe</button>
             </div>
          </div>
       </div>
@@ -123,6 +137,7 @@
 
       </div>
    </section>
+   <script src="../index.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,7 @@
     <title>Waffles</title>
     <link rel="stylesheet" href="../styles/recipes.css">
     <link rel="stylesheet" href="waffles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -36,7 +37,12 @@
         <div class="search">
             <input type="text" placeholder="Search recipe">
         </div>
-        <i class="fa-solid fa-bars"></i>
+         <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                <ul id="menu" class="mobile-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li> <a href="../pages/recipes.html">Recipes</a></li>
+            <li><a href="../pages/about-us.html">About us</a></li>
+        </ul>
     </header>
     <section class="push">
         <div class="us">
@@ -90,6 +96,7 @@
 
         </div>
     </section>
+    <script src="../index.js"></script>
 </body>
 
 </html>
