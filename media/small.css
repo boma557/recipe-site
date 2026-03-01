@@ -1,0 +1,10 @@
+nav, .search{
+    display: none;
+}
+.cards, .okay {
+    flex-wrap: wrap;
+}
+.okay{
+    gap: 10px;
+    
+}

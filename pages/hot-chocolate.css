@@ -16,3 +16,43 @@
      color: white;
      font-size: 40px;
 }
+
+
+ 
+@media screen and (min-width: 481px) and (max-width:768px) {
+
+    nav,
+    .search {
+        display: none;
+    }
+        .okay {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* for small screen */
+@media screen and (max-width: 480px) {
+
+    nav,
+    .search {
+        display: none;
+    }
+          .okay {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (min-width: 1025px) {
+    .fa-solid.fa-bars {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    .fa-solid.fa-bars {
+        display: none;
+    }
+}

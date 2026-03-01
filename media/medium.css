@@ -1,10 +1,22 @@
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
- @media screen and (max-width:768px ) {
-body {
-    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
- }
+
+@media screen and (max-width:768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+nav, .search {
+    display: none;
+}
+.cards, .okay {
+    flex-wrap: wrap;
+}
+.okay{
+    gap: 10px;
+    display: block;
+}
